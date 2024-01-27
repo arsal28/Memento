@@ -1,6 +1,6 @@
 from taipy.gui import Gui, navigate
 # sidebar = '''
-# <|Settings|button
+# <|Settings|button|>
 # '''
 
 home_pg = '''
@@ -11,7 +11,15 @@ home_pg = '''
 <|Placeholder|button|>
     |>
     <|
-<|Placeholder|button|>
+<|Settings|button|>
+
+<br />
+
+<|Create a new group|button|>
+
+<br />
+
+<|Friends|button|>
     |>
 |> 
 '''
