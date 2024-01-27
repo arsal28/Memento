@@ -1,5 +1,6 @@
 from taipy.gui import Gui, navigate, Markdown
 import cohere
+import json
 import numpy as np
 
 
